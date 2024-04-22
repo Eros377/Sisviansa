@@ -1,0 +1,61 @@
+header nav section a img[src="imagenes/titulo+empresa.png"]{
+    filter:invert(100%);
+}
+header nav section a img[src="imagenes/logo+empresa.png"]{
+    filter: brightness(200%);
+    filter:contrast(100%);
+}
+.botonMenuResponsive{
+    box-shadow:0px 0px 2px #FFFFFF;
+}
+.botonMenuResponsive span{
+    filter:invert(100%);
+}
+.offcanvas{
+    background:#1D1D1D;
+}
+
+.header{
+    background:#1D1D1D;
+    box-shadow:0px 0px 15px #2B2B2B;
+}
+
+.nabBoton{
+    color:#FFFFFF !important;  
+    font-family:Helvetica;
+    transition:0.1s !important;
+
+}
+.nabBoton:hover{
+    color:#FF6200  !important;
+}
+.nabBoton:active{
+    color:#1D1D1D !important;
+}
+/*botones importantes*/
+.loginuser{
+    background:rgba(255, 255, 255, 0.2);
+    border:1px solid #FFFFFF;
+    color:#FFFFFF !important;
+    border-radius:5px;
+    transition:0.2s !important;
+}
+.loginuser:hover{
+    box-shadow:0px 0px 5px #FFFFFF;
+}
+
+footer{
+    box-shadow:0px 0px 10px #111111;
+    background:#1D1D1D;
+    color:#ffffff;
+}
+.derechos{
+    filter:opacity(50%)
+}
+footer section section ul li a svg{
+    color:#ffffff;
+    transition:0.2;
+}
+footer section section ul li a svg:hover{
+    color:#FF6200;
+}

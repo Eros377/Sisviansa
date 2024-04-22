@@ -1,0 +1,81 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondos_usuarios.jpg) no-repeat !important;
+    background-size:100% !important;
+}
+/*menu*/
+.header{
+    background:transparent;
+    box-shadow:0px 0px 5px #2B2B2B;
+}
+img[src="imagenes/titulo+empresa.png"]{
+    filter: invert(100%);
+}
+h4{
+    color:#FFFFFF;
+}
+.btn-link{
+    border:1px solid #FFFFFF;
+    transition:0.1s;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.btn-link:hover{
+    background:rgba(255,255,255,0.2);
+    box-shadow:0px 0px 10px #FFFFFF;
+    color:#FFFFFF;
+}
+#btnCerrarSesion{
+    transition:0.1s;
+    border:1px solid #FFFFFF;
+    border-radius:10px;
+    color:#FFFFFF;
+    background:transparent;
+}
+#btnCerrarSesion:hover{
+    box-shadow:0px 0px 5px #FFFFFF;
+}
+#btnCerrarSesion:active{
+    background:rgba(255,255,255,0.2);
+}
+input::placeholder{
+    color:#111111;
+}
+input{
+    outline: none;
+}
+input:hover{
+    border:2px solid #FF6200;
+}
+/*Tabla*/
+
+/*Menus*/
+#tablaCrearMenu{
+    border-radius:10px;
+    border:1px solid #FF6200;
+    background:rgba(255, 98, 0, 0.2);
+}
+#tablaCrearUsuario{
+    border-radius:10px;
+    border:1px solid #FFFFFF;
+    background:rgba(255,255,255,0.2);
+}
+#btnCrearUsuario{
+    border-radius:5px;
+    border:1px solid #FF6200;
+    background:transparent;
+}
+#btnCrearUsuario:hover{
+    background:rgba(255, 98, 0, 0.2);
+}
+#btnCrearMenu{
+    border-radius:5px;
+    border:1px solid #FFFFFF;
+    background:transparent;
+}
+#btnCrearUsuario:hover{
+    background:rgba(255,255,255,0.2);
+}
+#aviso{
+    color:red;
+    text-shadow:0px 0px 10px red;
+}

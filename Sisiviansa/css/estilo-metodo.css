@@ -1,0 +1,66 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondos_usuarios.jpg) no-repeat !important;
+    background-size:150% !important;
+}
+p{
+    color:#ffffff;
+}
+.bordeCuenta{
+    border-radius:10px;
+    color:#FFFFFF;
+    border:1px solid #FF6200;
+    background:rgba(255, 98, 0, 0.2);
+
+}
+.bordeCuenta input{
+    border:2px solid #ffffff;
+    border-radius:2px;
+    outline:none;
+    transition:0.2s;
+}
+.bordeCuenta input:hover{
+    border:2px solid #FF6200;
+}
+
+#btnComprar{
+    border-radius:10px;
+    border:2px solid #FFFFFF;
+    color:#FFFFFF;
+    background:transparent;
+    text-decoration:none;
+    font-size:30px;
+}
+#btnComprar:hover{
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    box-shadow:0px 0px 10px #FFFFFF;
+    
+}
+#precio{
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    background:rgba(255, 255, 255, 0.2);
+    font-size:25px;
+}
+#mensajeCompra{
+    color:red;
+    text-shadow:0px 0px 10px red;
+}
+/*modal*/
+#fondo{
+    z-index:10;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.8);
+}
+#modal{
+    z-index:10;
+    border-radius:5px;
+    background:rgba(255, 98, 0, 0.2);
+    border:1px solid #FF6200;
+    color:#ffffff;
+}
+
+#modal a{
+    color:#FFFFFF;
+}

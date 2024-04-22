@@ -1,0 +1,52 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondos_usuarios.jpg) no-repeat !important;
+    background-size:150% !important;
+}
+/*filtros parametros*/
+.baseOpciones{
+    background:#1D1D1D;
+    box-shadow:0px 0px 10px #111111;
+}
+#selectDietas{
+    
+    outline:none;
+    border:1px solid #ffffff;
+    color:#000000;
+    background:rgba(255, 255, 255, 0.8);
+}
+#buscador{
+    outline:none;
+    border-radius:10px;
+    border:1px solid #ffffff;
+}
+.btnBuscarTienda{
+    border-radius:5px;
+    border:0px;
+    color:#FFFFFF;
+    border:1px solid #FF6200;
+    background:rgba(255, 98, 0, 0.2);
+}
+/*Forma del menu*/
+.baseMenu{
+    color:#ffffff;
+    border:2px solid #FF6200;
+    box-shadow:0px 0px 10px #FF6200;
+
+    border-radius:5px;
+    background:rgba(255, 98, 0, 0.2);
+}
+.btnCarrito{
+    color:#FFFFFF;
+    border:1px solid #FFFFFF;
+    border-radius:10px;
+    background:rgba(255, 255, 255, 0.2);
+}
+.btnCarrito:active{
+    box-shadow:0px 0px 5px #FFFFFF;
+}
+/*tienda precio*/
+.precioTienda{
+    border:1px solid #FFFFFF;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius:10px;
+}

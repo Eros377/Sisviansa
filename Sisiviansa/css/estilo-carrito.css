@@ -1,0 +1,89 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondos_usuarios.jpg) no-repeat !important;
+    background-size:150% !important;
+}
+.bordeCuenta{
+    border-radius:10px;
+    color:#FFFFFF;
+    border:1px solid #FF6200;
+    background:rgba(255, 98, 0, 0.2);
+    animation: neon 2s linear 0s infinite ;
+}
+.btnCarrito{
+    border-radius:10px;
+    border:2px solid #FFFFFF;
+    color:#FFFFFF;
+    background:transparent;
+    text-decoration:none;
+}
+.btnCarrito:hover{
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    box-shadow:0px 0px 10px #FFFFFF;
+}
+.btnCarrito:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+/*Tabla del carrito*/
+.bordePedido{
+    border:1px solid #FF6200;
+    background:rgba(255, 98, 0, 0.2);
+    color:#FFFFFF;
+}
+.btnEliminar{
+    color:#FFFFFF;
+    border-radius:10px;
+    border:1px solid red;
+    background:rgb(255, 0, 0, 0.2);
+}
+.btnEliminar:hover{
+    box-shadow:0px 0px 5px red;
+}
+
+/*carrito mostrar*/
+#mostrarTotal{
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    background:rgba(255, 255, 255, 0.2);
+}
+/*agregar Stock*/
+.input[type="number"]{
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    background:rgba(255, 255, 255, 0.2);
+}
+/*Modal*/
+#fondoModal{
+    z-index:-1;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.8);
+}
+#modal{
+    z-index:10;
+    border-radius:5px;
+    background:rgba(255, 98, 0, 0.2);
+    border:1px solid #FF6200;
+    color:#ffffff;
+}
+#modal a{
+    color:#FF6200;
+}
+#modal span{
+    border-radius:10px ;
+    border:2px solid #FFFFFF;
+}
+#modal span:hover{
+    box-shadow:0px 0px 10px #FFFFFF;
+}
+#modal span:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+.btnAgregar{
+    background:transparent;
+    border:1px solid #FF6200;
+    color:#FFFFFF;
+}
+.btnAgregar:hover{
+    box-shadow:0px 0px 5px #FF6200;
+}

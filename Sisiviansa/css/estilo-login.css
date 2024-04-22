@@ -1,0 +1,56 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondos_usuarios.jpg) no-repeat !important;
+    background-size:150% !important;
+}
+h1{
+    color:#FFFFFF;
+}
+::placeholder{
+    color:#1D1D1D;
+}
+.login{
+    border-radius:10px;
+    background:rgba(255, 98, 0, 0.2);
+    border:2px solid #FF6200;  
+}
+.input{
+    border:2px solid #ffffff;
+    border-radius:2px;
+    outline:none;
+    transition:0.2s;
+}
+.input:hover{
+    border:2px solid #FF6200;
+}
+#BtnIniciarSesion{
+    border-radius:10px;
+    border:2px solid #FFFFFF;
+    color:#FFFFFF;
+    background:transparent;
+}
+#BtnIniciarSesion:hover{
+    box-shadow:0px 0px 10px #FFFFFF;
+}
+#BtnIniciarSesion:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+#BtnIniciarSesion, .input{
+    animation: Animacion 2s ease-out 0s normal;
+}
+@keyframes Animacion{
+    0%{
+        filter:opacity(0%);
+    }
+    100%{
+        filter:opacity(100%);
+    }
+}
+
+
+/*mensaje*/
+#mensaje{
+    color:#FFFFFF;
+    border-radius:10px;
+    border:1px solid red;
+    background:rgb(255, 0, 0, 0.2);
+}

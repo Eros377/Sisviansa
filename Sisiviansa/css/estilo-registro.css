@@ -1,0 +1,222 @@
+body{
+    background:#111111 url(../imagenes/fondos/fondo-registro.jpg) no-repeat !important;
+    background-size:150% !important;
+}
+h4{
+    color:#FFFFFF;
+}
+
+.BtnCliente{
+    background:transparent;
+    color:#FFFFFF;
+    border:1px solid #FF6200;
+    border-radius:10px;
+    transition:0.2s;
+    font-size:20px;
+}
+.BtnCliente:hover{
+    box-shadow:0px 0px 5px #FF6200;
+    color:#FFFFFF;
+}
+.BtnCliente:active{
+    background:rgba(255, 98, 0, 0.2);
+}
+.BtnEmpresa{
+    background:transparent;
+    color:#FFFFFF;
+    border:1px solid #FFFFFF;
+    border-radius:10px;
+    transition:0.2s;
+    font-size:20px;
+
+}
+.BtnEmpresa:hover{
+    box-shadow:0px 0px 5px #FFFFFF;
+    color:#FFFFFF;
+}
+.BtnEmpresa:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+
+/*Formulario cliente*/
+#FormularioCliente{
+    z-index:10;  
+    background:rgba(255, 98, 0, 0.2);
+    border:2px solid #FF6200;  
+}
+#FormularioCliente h4{
+    color:#FFFFFF;
+}
+#FormularioCliente p{
+    color:#FFFFFF;
+}
+#FormularioCliente p a{
+    color:#EE7712;
+}
+#BtnClienteRegistrar{
+    background:transparent;
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    border-radius:10px;
+}
+#BtnClienteRegistrar:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+::placeholder{
+    color:#1D1D1D;
+}
+.input{
+    background:rgba(255, 255, 255,1);
+    color:#1D1D1D !important;
+    border:2px solid #FFFFFF;
+    border-radius:2px;
+    outline:none;
+    transition:0.2s;
+}
+.input:hover{
+    border:2px solid #FF6200;
+}
+/*Formulario empresa*/
+#FormularioEmpresa{
+    background:rgba(255, 255, 255, 0.2);
+    border:2px solid #FFFFFF;  
+}
+#FormularioEmpresa h4{
+    color:#FFFFFF;
+}
+#BtnEmpresaRegistrar{
+    background:transparent;
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+    border-radius:10px;
+}
+#BtnEmpresaRegistrar:active{
+    background:rgba(255, 255, 255, 0.2);
+}
+#FormularioCliente, #FormularioEmpresa{
+    border-radius:10px;
+    position:absolute;
+    
+}
+#FormularioEmpresa p {
+    color:#FFFFFF;
+}
+#FormularioEmpresa p a{
+    color:#FF6200;
+}
+#aceptarTerminos{
+    color:#FF6200 !important;
+    background:#FF6200;
+}
+.input1{
+    border:2px solid #ffffff;
+    border-radius:2px;
+    outline:none;
+    transition:0.2s;
+}
+.input1:hover{
+    border:2px solid #FF6200;
+}
+
+@keyframes AparecerCliente{
+    0%{
+        right:100%;
+        filter:opacity(0%);
+    }
+    100%{
+        right:33.30%;
+        filter:opacity(100%);
+    }
+}
+@keyframes DesaparecerCliente{
+    0%{
+        right:33.30%;
+        filter:opacity(100%);
+        display: block;
+    }
+    80%{
+        filter:opacity(0%);
+    }
+    
+    100%{
+        right:100%;
+        filter:opacity(0%);
+        display: block;
+    }
+}
+@keyframes AparecerEmpresa{
+    0%{
+        left:100%;
+        filter:opacity(0%);
+        
+    }
+    100%{
+        left:33.30%;
+        filter:opacity(100%);
+    }
+}
+
+@keyframes DesaparecerEmpresa{
+    0%{
+        left:33.30%;
+        filter:opacity(100%);
+        display: block;
+    }
+    80%{
+        filter:opacity(0%);
+    }
+    100%{
+        left:100%;
+        filter:opacity(0%);
+        animation-play-state: paused;
+        display: block;
+    }
+}
+
+.plantilla{
+    background:#ffffff;
+    position:absolute;
+    z-index:1;
+}
+/*mensaje*/
+#mensaje{
+    color:#FFFFFF;
+    border-radius:10px;
+    border:1px solid red;
+    background:rgb(255, 0, 0, 0.2);
+}
+/*mensaje*/
+#mensaje{
+    color:#FFFFFF;
+    border-radius:10px;
+    border:1px solid red;
+    background:rgb(255, 0, 0, 0.2);
+}
+/*modal*/
+#fondo{
+    z-index:10;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.8);
+}
+#modal{
+    z-index:10;
+    border-radius:5px;
+    background:rgba(255, 98, 0, 0.2);
+    border:1px solid #FF6200;
+    color:#ffffff;
+}
+
+#modal a{
+    color:#FFFFFF;
+}
+#modal span{
+    border-radius:10px ;
+    border:2px solid #FFFFFF;
+}
+#modal span:hover{
+    box-shadow:0px 0px 10px #FFFFFF;
+}
+#modal span:active{
+    background:rgba(255, 255, 255, 0.2);
+}
